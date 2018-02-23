@@ -19,6 +19,7 @@ html{
 	position: fixed;
 	top: 0;
 	width: 350px;
+	height: 100vh;
 	z-index: 2;
 }
 
