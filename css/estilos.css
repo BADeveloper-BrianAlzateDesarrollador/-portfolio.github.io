@@ -1,0 +1,668 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.ver{
+	top: 100px;
+	width: 80%;
+	height: auto;
+	left: 10%;
+	background-color: #E0E0E0;
+	position: absolute;
+	z-index: -2;
+	padding: 1em;
+}
+
+@media screen and (max-width: 400px){
+
+  .ver{
+    top: 100px;
+    width: 100%;
+    height: auto;
+    left: 0%;
+    background-color: #E0E0E0;
+    position: absolute;
+    z-index: -2;
+    padding: 1em;
+  }
+
+}
+
+.mirar{
+	top: 100px;
+	width: 200px;
+	height: 200px;
+	left: 10%;
+	background-color: #E0E0E0;
+	position: absolute;
+	padding: 0;
+	z-index: -2;
+
+}
+
+/* efecto hacia dentro*/
+
+.mostrar__cuadro1 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: .5em;
+  top: 20px;
+}
+.div-img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img1.hidden1 {
+  overflow: hidden;
+}
+.div-img1 .img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img1:hover .img1 {
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+/* efecto hacia fuera */
+
+.mostrar__cuadro2 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: .5em;
+  top: 20px;
+}
+.div-img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img2.hidden2 {
+  overflow: hidden;
+}
+.div-img2 .img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img2:hover .img2 {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+/* efecto encogerse */
+
+.mostrar__cuadro3 {
+  display: inline-block; 
+  width: 200px;
+  height: 200px;
+  margin: .5em;
+  top: 20px;
+  }
+
+.div-img3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div-img3.hidden3 {
+  overflow: hidden;
+}
+.div-img3 .img3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img3:hover .img3 {
+  transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* efecto encoger y motrar texto */
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
+
+.mostrar__cuadro4 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: .5em;
+  top: 20px;
+  overflow: hidden;
+}
+.div-img4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div-img4 .img4 {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img4 .text4 {
+  font-family: 'Open Sans';
+  padding-top: 2px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 0;
+  transition: transfom opacity 1.5s;
+}
+.div-img4:hover .img4 {
+  transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -o-transform: scale(0.8);
+}
+.div-img4:hover .text4 {
+  transform: translate(0px, -20px);
+  opacity: 1;
+}
+
+/* efecto (moverse a la derecha y mostrar texto ) */
+
+.mostrar__cuadro5 {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  top: 20px;
+}
+.div-img5 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img5 .img5 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  transform: translate(0px);
+  -ms-transform: translate(0px);
+  -moz-transform: translate(0px);
+  -webkit-transform: translate(0px);
+  -o-transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img5 .text5 {
+  font-family: 'Open Sans';
+  position: absolute;
+  z-index: -1;
+  display: block;
+  height: 50%;
+  top: 50%;
+  right: 0;
+  padding-right: 5px;
+}
+.div-img5:hover .img5 {
+  transform: translate(-90px, 0px);
+  -ms-transform: translate(-90px, 0px);
+  -moz-transform: translate(-90px, 0px);
+  -webkit-transform: translate(-90px, 0px);
+  -o-transform: translate(-90px, 0px);
+}
+
+/* efecto desplazarse a la izquierda y mostrar texto */
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
+
+.mostrar__cuadro6 {
+  width: 200px;
+  height: 200px;
+  top: 20px;
+}
+.div-img5 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img6.hidden6 {
+  overflow: hidden;
+}
+.div-img6 .img6 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  transform: translate(0px);
+  -ms-transform: translate(0px);
+  -moz-transform: translate(0px);
+  -webkit-transform: translate(0px);
+  -o-transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img6 .text6 {
+  font-family: 'Open Sans';
+  position: absolute;
+  z-index: -1;
+  display: block;
+  height: 50%;
+  top: 50%;
+  left: 0;
+  padding-left: 5px;
+  opacity: 0;
+  transition: all 1.5s;
+  -webkit-transition: all 1.5s ease-in;
+  -moz-transition: all 1.5s ease-in;
+  -ms-transition: all 1.5s ease-in;
+  -o-transition: all 1.5s ease-in;
+}
+.div-img6 .overlay6 {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  /*dim the background*/
+  opacity: 0;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+}
+.div-img6:hover .img6 {
+  transform: translate(90px, 0px);
+  -ms-transform: translate(90px, 0px);
+  -moz-transform: translate(90px, 0px);
+  -webkit-transform: translate(90px, 0px);
+  -o-transform: translate(90px, 0px);
+}
+.div-img6:hover .overlay6 {
+  opacity: 1;
+}
+.div-img6:hover .text6 {
+  opacity: 1;
+}
+
+/* efecto girar imagen */
+
+.mostrar__cuadro7 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: .5em;
+  top: 20px;
+}
+.div-img7 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img7 .img7 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img7:hover .img7 {
+  transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+}
+
+/* efecto encoger imagen y mostrar texto diferente */
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
+
+.mostrar__cuadro8 {
+  width: 200px;
+  height: 200px;
+  
+}
+.div-img8 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img8 .img8 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: translate(0px, 0px) scale(1);
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img8 .text8 {
+  font-family: 'Open Sans';
+  position: absolute;
+  z-index: -1;
+  display: block;
+  height: 50%;
+  top: 70%;
+  right: 0;
+  padding-right: 5px;
+}
+.div-img8:hover .img8 {
+  transform: translate(-50px, -50px) scale(0.5);
+  -webkit-transform: translate(-50px, -50px) scale(0.5);
+  -moz-transform: translate(-50px, -50px) scale(0.5);
+  -o-transform: translate(-50px, -50px) scale(0.5);
+  -ms-transform: translate(-50px, -50px) scale(0.5);
+}
+
+/* efecto enfocar a la izquieda */
+
+.mostrar__cuadro9 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: .5em;
+  top: 20px;
+}
+.div-img9 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+.div-img9.hidden9 {
+  overflow: hidden;
+}
+.div-img9 .img9 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 200px;
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+  -moz-transition: margin 1s ease;
+  -o-transition: margin 1s ease;
+  -ms-transition: margin 1s ease;
+  transition: margin 1s ease;
+}
+.div-img9:hover .img9 {
+  margin-left: -200px;
+}
+
+/* efecto enfocar hacia abajo */
+
+.mostrar__cuadro10 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: .5em;
+  top: 20px;
+}
+.div-img10 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+.div-img10.hidden10 {
+  overflow: hidden;
+}
+.div-img10 .img10 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 400px;
+  margin-top: 0px;
+  -webkit-transition: margin 1s ease;
+  -moz-transition: margin 1s ease;
+  -o-transition: margin 1s ease;
+  -ms-transition: margin 1s ease;
+  transition: margin 1s ease;
+}
+.div-img10:hover .img10 {
+  margin-top: -200px;
+}
+
+/* efecto arriba */
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
+
+.mostrar__cuadro11 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: .5em;
+  top: 20px;
+}
+.div-img11 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img11.hidden11 {
+  overflow: hidden;
+}
+.div-img11 .img11 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img11 .text11 {
+  font-family: 'Open Sans';
+  position: absolute;
+  z-index: -1;
+  display: block;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.div-img11:hover .img11 {
+  transform: translate(0px, -100px);
+  -ms-transform: translate(0px, -100px);
+  -moz-transform: translate(0px, -100px);
+  -webkit-transform: translate(0px, -100px);
+  -o-transform: translate(0px, -100px);
+}
+
+/* encoger la imagen y agrandar el texto */
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
+
+.transition {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.mostrar__cuadro12 {
+  width: 200px;
+  height: 200px;
+  top: 20px;
+}
+.div-img12 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img12 .img12 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  -webkit-transform: 0px 0px 1;
+  -moz-transform: 0px 0px 1;
+  -o-transform: 0px 0px 1;
+  -ms-transform: 0px 0px 1;
+  transform: 0px 0px 1;
+  transform: translate(0px, 0px) scale(1);
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img12 .text12 {
+  font-family: 'Open Sans';
+  position: absolute;
+  z-index: -1;
+  display: block;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: 0px 0px 1;
+  -moz-transform: 0px 0px 1;
+  -o-transform: 0px 0px 1;
+  -ms-transform: 0px 0px 1;
+  transform: 0px 0px 1;
+  transform: translate(0px, 0px) scale(1);
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img12:hover .img12 {
+  -webkit-transform: 0px -30px 0.5;
+  -moz-transform: 0px -30px 0.5;
+  -o-transform: 0px -30px 0.5;
+  -ms-transform: 0px -30px 0.5;
+  transform: 0px -30px 0.5;
+  transform: translate(0px, -30px) scale(0.5);
+  -webkit-transform: translate(0px, -30px) scale(0.5);
+  -moz-transform: translate(0px, -30px) scale(0.5);
+  -o-transform: translate(0px, -30px) scale(0.5);
+  -ms-transform: translate(0px, -30px) scale(0.5);
+  border-radius: 50%;
+}
+.div-img12:hover .text12 {
+  -webkit-transform: 0px 0px 2;
+  -moz-transform: 0px 0px 2;
+  -o-transform: 0px 0px 2;
+  -ms-transform: 0px 0px 2;
+  transform: 0px 0px 2;
+  transform: translate(0px, 0px) scale(2);
+  -webkit-transform: translate(0px, 0px) scale(2);
+  -moz-transform: translate(0px, 0px) scale(2);
+  -o-transform: translate(0px, 0px) scale(2);
+  -ms-transform: translate(0px, 0px) scale(2);
+}

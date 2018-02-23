@@ -1,0 +1,59 @@
+commit 04ed57c0d0c72b4663516449f590a599eb106241
+Author: Brian Alzate <brianalzate97@gmail.com>
+Date:   Fri Feb 23 13:45:10 2018 -0500
+
+    agrege los proyecto 17 y 18
+
+commit cf92a9045c38698a6ab193f391e546a75c61a6a2
+Author: Brian Alzate <brianalzate97@gmail.com>
+Date:   Fri Feb 23 13:13:53 2018 -0500
+
+    agrege los proyectos 15 y 16
+
+commit befea775c2f6f9281bd9f7ca03162e0739508bff
+Author: Brian Alzate <brianalzate97@gmail.com>
+Date:   Fri Feb 23 11:28:11 2018 -0500
+
+    agrege proyecto 13 y 14
+
+commit 5c23d66c1e547638638374da6991248970141206
+Author: Brian Alzate <brianalzate97@gmail.com>
+Date:   Fri Feb 23 11:21:39 2018 -0500
+
+    agrege proyecto 11 y 12
+
+commit 815e2881999685f7ea8e24bcc05aedde460a88c7
+Author: Brian Alzate <brianalzate97@gmail.com>
+Date:   Fri Feb 23 11:14:19 2018 -0500
+
+    agrege la viewport
+
+commit 7bd383d2546e98b2469ea2954ba801a77cdef6be
+Author: Brian Alzate <brianalzate97@gmail.com>
+Date:   Fri Feb 23 11:06:53 2018 -0500
+
+    agrege proyecto 9 y 10, tambien agrege una transition en los tags
+
+commit 0f394f0f61a821f839438a39219af8fd9ea2e8a8
+Author: Brian Alzate <brianalzate97@gmail.com>
+Date:   Thu Feb 22 14:52:45 2018 -0500
+
+    agrege un margin top  de 1em a los titulos de cada proyecto y tambien un display inline-block
+
+commit 274ea418363be83a3e541f39670f8b3ed65875ad
+Author: Brian Alzate <brianalzate97@gmail.com>
+Date:   Thu Feb 22 14:44:09 2018 -0500
+
+    Agrege una nueva seccion con proyectos 7 y 8
+
+commit 48dbab17fd987a7794355c2e3c638410ea4b11fb
+Author: Brian Alzate <brianalzate97@gmail.com>
+Date:   Thu Feb 22 13:41:15 2018 -0500
+
+    Iniciamos
+
+commit 80d2ddc2ebba5ad5b13beb4d3fa2fa5e55c0a55c
+Author: BADeveloper - Brian Alzate Desarrollador <brianalzate97@gmail.com>
+Date:   Fri Feb 23 18:31:39 2018 +0000
+
+    Initial commit
