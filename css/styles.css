@@ -39,9 +39,10 @@ html{
 
 .perfil__nombres{
 	color: white;
-	font-size: 20px;
+	font-size: 1.7em;
 	margin-left: .5em;
 	width: 250px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .perfil__nombres, .perfil__circulo{
@@ -55,6 +56,7 @@ html{
 	color: #0F6A62;
 	position: absolute;
 	bottom: 1em;
+	font-family: 'Lato', sans-serif;
 }
 
 .informacion__titulo{
@@ -74,6 +76,7 @@ html{
 	margin-top: 20px;
 	padding: 0;
 	list-style: none;
+	font-family: 'Roboto', sans-serif;
 
 }
 
@@ -153,14 +156,21 @@ html{
 .proyecto__titulo{
 	text-decoration: none;
 	color: #29597C;
-	font-size: 18px;
+	font-size: 1.5em;
 	z-index: 3;
+	margin-top: 1em;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
 
 }
 
 .proyecto__descripcion{
 	color: #797D7F;
 	z-index: 3;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
 }
 
 /*pie de pagina*/
