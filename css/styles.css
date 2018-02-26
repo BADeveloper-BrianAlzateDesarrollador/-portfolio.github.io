@@ -202,7 +202,8 @@ html{
 
 }
 .foot__derechos{
-	font-family: papyrus;
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
 	color: #fff;
 	text-align: right;
 	padding-right: 9%;
